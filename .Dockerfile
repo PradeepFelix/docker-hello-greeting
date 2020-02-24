@@ -1,5 +1,5 @@
 # we are extending everything from tomcat:8.0 image ...
-FROM tomcat:8.0
+FROM tomcat:8.5
 
 #add tomcat users
 ADD /build/tomcat-users.xml /usr/local/tomcat/conf/
